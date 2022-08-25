@@ -1,0 +1,20 @@
+galaxy_info:
+  author: digimokan
+  description: "Install and configure the PulseAudio sound driver layer"
+  license: "MIT"
+  min_ansible_version: 2.7
+  platforms:
+    - name: Archlinux
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+        - jammy
+  galaxy_tags:
+    - archlinux
+    - ubuntu
+    - sound
+    - pulseaudio
+
