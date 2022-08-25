@@ -1,0 +1,5 @@
+# pulseaudio commands to increase and decrease volume by set increments
+# ref: https://www.commandlinefu.com/commands/view/24363/pulseaudio-set-the-volume-via-command-line
+pulseaudio_cmd_inc_volume: "pactl set-sink-volume @DEFAULT_SINK@ +5%"
+pulseaudio_cmd_dec_volume: "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+
