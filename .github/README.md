@@ -52,7 +52,7 @@ Install and configure the PulseAudio sound driver layer.
        - name: "Install and configure the PulseAudio sound driver layer"
          ansible.builtin.include_role:
            name: ans_role_config_pulseaudio
-           public: yes
+           public: true
    ```
 
 ## Role Options
