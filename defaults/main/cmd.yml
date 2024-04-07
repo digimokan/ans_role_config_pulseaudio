@@ -3,3 +3,6 @@
 pulseaudio_inc_volume_cmd: "pactl set-sink-volume @DEFAULT_SINK@ +5%"
 pulseaudio_dec_volume_cmd: "pactl set-sink-volume @DEFAULT_SINK@ -5%"
 
+# pulseaudio sound server name (for sinking/sourcing to and from other apps)
+pulseaudio_sound_server_name: "pulseaudio"
+
